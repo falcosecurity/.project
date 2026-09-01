@@ -9,7 +9,6 @@ maintainers:
     teams:
       - name: "maintainers"
         members:
-          - andreagit97
           - cpanato
           - fededp
           - gnosek
@@ -19,9 +18,7 @@ maintainers:
           - lucaguerra
           - mstemm
           - ekoops
-          - maxgio92
           - molter73
-          - incertum
           - zuc
           - issif
           - alacuku
