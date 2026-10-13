@@ -9,7 +9,7 @@ This repository holds the canonical metadata for [Falco](https://falco.org/) and
 |------|---------|
 | `project.yaml` | Canonical project metadata (name, maturity, repositories, governance links, …) |
 | `maintainers.yaml` | Maintainer and reviewer roster used for drift detection and mailing-list sync |
-| `CODEOWNERS` | Ensures PRs to this repo require maintainer approval |
+| `OWNERS` | Lists the approvers used by Prow for pull request reviews |
 | `.github/workflows/validate.yaml` | CI — validates `project.yaml` and `maintainers.yaml` on every PR |
 | `.github/workflows/update-landscape.yml` | Automatically proposes landscape updates when `project.yaml` changes |
 
