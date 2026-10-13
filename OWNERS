@@ -1,7 +1,7 @@
-# Approvers for .project metadata changes.
+# Core maintainers for .project metadata changes.
+# https://github.com/falcosecurity/evolution/blob/main/MAINTAINERS.md#core-maintainers
 approvers:
   - alacuku
-  - andreagit97
   - c2ndev
   - cpanato
   - deepskyblue86
@@ -9,14 +9,12 @@ approvers:
   - fededp
   - geraldcombs
   - gnosek
-  - incertum
-  - irozzo-1A
+  - irozzo-1a
   - issif
   - jasondellaluce
   - leogr
   - loresuso
   - lucaguerra
-  - maxgio92
   - molter73
   - mstemm
   - sgaist
