@@ -2,15 +2,12 @@ name: Validate Project Metadata
 
 on:
   pull_request:
-    paths:
-      - 'project.yaml'
-      - 'maintainers.yaml'
   push:
     branches: [main]
-    paths:
-      - 'project.yaml'
-      - 'maintainers.yaml'
   workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   validate-project:
@@ -19,6 +16,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0
+          persist-credentials: false
 
       - uses: cncf/automation/.github/actions/validate-project@53810a548b46f33421cd67e57d16e4b7251416d9
         with:
@@ -30,6 +28,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0
+          persist-credentials: false
 
       - uses: cncf/automation/.github/actions/validate-maintainers@53810a548b46f33421cd67e57d16e4b7251416d9
         with:
@@ -38,3 +37,28 @@ jobs:
           verify_maintainers: 'false'
         env:
           LFX_AUTH_TOKEN: ${{ secrets.LFX_AUTH_TOKEN }}
+
+  validate-governance:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    container:
+      image: golang:1.26.7-bookworm@sha256:e8c859f5632dcfde7b32d2012b4351728f6437930887c2f6a91ea242459e5514
+    env:
+      GOWORK: 'off'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Checkout the trusted governance validator
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: falcosecurity/test-infra
+          ref: 5cf94797ee0b3fad4418aee6680be95aa305603a
+          path: _test-infra
+          sparse-checkout: tools/project-sync
+          persist-credentials: false
+      - name: Validate editable metadata with Prow schemas
+        working-directory: _test-infra/tools/project-sync
+        run: |
+          go build -mod=readonly -p 2 -o /tmp/project-sync .
+          /tmp/project-sync validate --project-dir "$GITHUB_WORKSPACE"
