@@ -49,11 +49,11 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - name: Checkout the trusted governance validator
+      - name: Checkout the trusted metadata validator
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: falcosecurity/test-infra
-          ref: 5cf94797ee0b3fad4418aee6680be95aa305603a
+          ref: 52d038b0d94ad5d5a333be68404860dc440111f6
           path: _test-infra
           sparse-checkout: tools/project-sync
           persist-credentials: false
