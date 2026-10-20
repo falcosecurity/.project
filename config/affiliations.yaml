@@ -1,6 +1,7 @@
 # AUTOMATICALLY UPDATED, but editable.
-# Edit name and company for each GitHub login. New eligible accounts receive placeholders.
-# Entries with no active-repository OWNERS reference and no organization admin role are removed.
+# Edit name and company. Verified historical renames may set github_id and emeritus_aliases;
+# these only preserve existing emeritus membership and never grant active review permissions.
+# Active-repository OWNERS references and admins receive placeholders; obsolete entries are removed.
 ahmedameenaim:
   name: Ahmed Amin
   company: Zartis
@@ -94,6 +95,12 @@ kaizhe:
 keisukeyamashita:
   name: Keisuke Yamashita
   company: Mercari
+krisnova:
+  name: Kris Nóva
+  company: Independent
+  github_id: 13757818
+  emeritus_aliases:
+    - kris-nova
 ldegio:
   name: Loris Degioianni
   company: Sysdig

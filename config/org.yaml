@@ -1,7 +1,9 @@
 # AUTOMATICALLY UPDATED, but editable.
 # Edit admins, organization settings, repository descriptions/settings, team settings/permissions,
 # and purpose-specific teams manually. Organization members and repository/core team membership
-# are generated from OWNERS. Archived repositories and their references are removed.
+# are generated from OWNERS. Emeritus maintainers retain existing membership only;
+# remove an emeritus-only member here to honor a requested departure.
+# Archived repositories and their references are removed.
 # Source and implementation: falcosecurity/test-infra/tools/project-sync.
 orgs:
   falcosecurity:
@@ -33,12 +35,10 @@ orgs:
       - cpanato
       - darryk10
       - deepskyblue86
-      - developer-guy
       - dwindsor
       - ewilderj
       - exoner4ted
       - fjogeleit
-      - fntlnz
       - geraldcombs
       - gnosek
       - hbrueckner
@@ -49,19 +49,15 @@ orgs:
       - issif
       - jonahjon
       - kaizhe
-      - keisukeyamashita
+      - krisnova
       - leodido
       - loresuso
       - lowaiz
-      - lucperkins
       - maxgio92
       - mfdii
       - molter73
       - mrgian
-      - nibalizer
       - rabbitstack
-      - radhikapc
-      - rajakavitha1
       - rohith-raju
       - sboschman
       - scraly
