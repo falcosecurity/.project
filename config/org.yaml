@@ -68,6 +68,10 @@ orgs:
       - vjjmiras
       - zuc
     repos:
+      # Pending archival: Peribolos applies this; project-sync removes it only
+      # after GitHub confirms the repository is archived.
+      peribolos-syncer:
+        archived: true
       .github:
         allow_merge_commit: false
         allow_rebase_merge: true

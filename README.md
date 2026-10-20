@@ -47,6 +47,15 @@ differences between editable inputs and generated files so the automation can
 propose the corresponding updates after merge. Check generated PR diffs before
 approving them, especially organization membership changes.
 
+## Coordinated retirement
+
+The migration includes a temporary `peribolos-syncer` entry with `archived: true`
+in `config/org.yaml`. This requests archival; it does not claim the repository is
+already archived. The companion test-infra PR activates Peribolos to apply it.
+Project-sync waits until GitHub confirms archival, then proposes removing this
+entry. Accept that cleanup before downstream automation resumes. Evolution's
+companion documentation PR merges after archival is confirmed.
+
 See [the metadata process](https://github.com/falcosecurity/evolution/blob/main/METADATA.md)
 and [operational instructions](https://github.com/falcosecurity/test-infra/blob/master/docs/github-org-management.md).
 
