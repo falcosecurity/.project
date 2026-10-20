@@ -1,0 +1,184 @@
+# AUTOMATICALLY UPDATED, but editable.
+# Edit name and company. Verified historical renames may set github_id and emeritus_aliases;
+# these only preserve existing emeritus membership and never grant active review permissions.
+# Active-repository OWNERS references and admins receive placeholders; obsolete entries are removed.
+ahmedameenaim:
+  name: Ahmed Amin
+  company: Zartis
+alacuku:
+  name: Aldo Lacuku
+  company: Kong
+andreaterzolo:
+  name: andreaterzolo
+  company: UNKNOWN
+araujof:
+  name: Fred Araujo
+  company: IBM
+bencer:
+  name: Jorge Salamero Sanz
+  company: Sysdig
+c2ndev:
+  name: Alessandro Cannarella
+  company: Sysdig
+caniszczyk:
+  name: caniszczyk
+  company: UNKNOWN
+cappellinsamuele:
+  name: Samuele Cappellin
+  company: Ca' Foscari University of Venice
+cpanato:
+  name: Carlos Tadeu Panato Junior
+  company: Chainguard
+darryk10:
+  name: Stefano Chierici
+  company: Sysdig
+deepskyblue86:
+  name: Angelo Puglisi
+  company: Sysdig
+developer-guy:
+  name: developer-guy
+  company: UNKNOWN
+dwindsor:
+  name: David Windsor
+  company: Independent
+ekoops:
+  name: Leonardo Di Giovanna
+  company: Sysdig
+ewilderj:
+  name: Edd Wilder-James
+  company: Independent
+exoner4ted:
+  name: Logan Bond
+  company: Secureworks
+fededp:
+  name: Federico Di Pierro
+  company: Sysdig
+fjogeleit:
+  name: Frank Jogeleit
+  company: LOVOO
+fntlnz:
+  name: Lorenzo Fontana
+  company: Independent
+geraldcombs:
+  name: Gerald Combs
+  company: Wireshark Foundation
+gnosek:
+  name: Grzegorz Nosek
+  company: Sysdig
+hbrueckner:
+  name: Hendrik Brueckner
+  company: IBM
+hmadison:
+  name: hmadison
+  company: UNKNOWN
+igoreulalio:
+  name: Igor Eulalio
+  company: Sysdig
+incertum:
+  name: Melissa Kilby
+  company: Apple
+irozzo-1a:
+  name: Iacopo Rozzo
+  company: Sysdig
+issif:
+  name: Thomas Labarussias
+  company: Yubo
+jasondellaluce:
+  name: Jason Dellaluce
+  company: Replit
+jonahjon:
+  name: Jonah Jones
+  company: Amazon
+kaizhe:
+  name: Kaizhe Huang
+  company: Aurora
+keisukeyamashita:
+  name: Keisuke Yamashita
+  company: Mercari
+krisnova:
+  name: Kris Nóva
+  company: Independent
+  github_id: 13757818
+  emeritus_aliases:
+    - kris-nova
+ldegio:
+  name: Loris Degioianni
+  company: Sysdig
+leodido:
+  name: Leonardo Di Donato
+  company: Independent
+leogr:
+  name: Leonardo Grasso
+  company: Sysdig
+loresuso:
+  name: Lorenzo Susini
+  company: Sysdig
+lowaiz:
+  name: Lyonel Martinez
+  company: Numberly
+lucaguerra:
+  name: Luca Guerra
+  company: Sysdig
+lucperkins:
+  name: Luc Perkins
+  company: Timber
+maxgio92:
+  name: Massimiliano Giovagnoli
+  company: Chainguard
+mfdii:
+  name: Michael Ducy
+  company: RedHat
+molter73:
+  name: Mauro Ezequiel Moltrasio
+  company: RedHat
+mrgian:
+  name: Gianmatteo Palmieri
+  company: Sysdig
+mstemm:
+  name: Mark Stemm
+  company: Sysdig
+nibalizer:
+  name: Spencer Krum
+  company: OctoML
+poiana:
+  name: poiana
+  company: UNKNOWN
+rabbitstack:
+  name: Nedim Sabic Sabic
+  company: Sysdig
+radhikapc:
+  name: Radhika Puthiyetath
+  company: Sysdig
+rajakavitha1:
+  name: Rajakavitha
+  company: Independent
+rohith-raju:
+  name: Rohith Raju
+  company: Independent
+sboschman:
+  name: Sverre Boschman
+  company: Topicus.Education
+scraly:
+  name: Aurélie Vache
+  company: OVHcloud
+sgaist:
+  name: Samuel Gaist
+  company: Idiap Research Institute
+terror96:
+  name: terror96
+  company: UNKNOWN
+terylt:
+  name: Teryl Taylor
+  company: IBM
+thelinuxfoundation:
+  name: thelinuxfoundation
+  company: UNKNOWN
+therealbobo:
+  name: Roberto Scolaro
+  company: Sysdig
+vjjmiras:
+  name: Vicente Javier Jiménez Miras
+  company: Independent
+zuc:
+  name: Michele Zuccala
+  company: Sysdig
