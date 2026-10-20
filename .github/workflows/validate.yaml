@@ -53,7 +53,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: falcosecurity/test-infra
-          ref: 52d038b0d94ad5d5a333be68404860dc440111f6
+          ref: 3c84524d02efee533a1e356d8ea9225bb58d946b
           path: _test-infra
           sparse-checkout: tools/project-sync
           persist-credentials: false
