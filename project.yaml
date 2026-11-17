@@ -28,7 +28,7 @@ repositories: # TODO: AUTO-DETECTED primary — please verify
 
 website: "https://falco.org/"
 
-artwork: "https://landscape.cncf.io/logos/falco.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/falco"
 
 adopters:
   path: "https://github.com/falcosecurity/falco/blob/master/ADOPTERS.md"
