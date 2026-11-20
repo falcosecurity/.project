@@ -214,6 +214,7 @@ maintainers:
       - name: falcosidekick-maintainers
         managed: false
         members:
+          - c2ndev
           - cpanato
           - fjogeleit
           - issif
